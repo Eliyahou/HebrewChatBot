@@ -2,8 +2,6 @@
 In our Application We Are utilizing [Retrieval Augmented Generation (RAG)](https://arxiv.org/pdf/2005.11401) for querying and interacting with your data,
 **either locally or deployed via cloud**.
 
-![Screenshot](/images/hebrewChatBotExample.png)
-
 ![Demo of Hebrew ChatBot](images/Video-Hebrew-Chat-Bot.gif)
 
 We Are Giving The Option For Three LLM's 
