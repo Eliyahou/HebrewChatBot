@@ -2,7 +2,7 @@
 ![Screenshot](/images/hebrewChatBotExample.png)
 
 - To Use the system - We recommend to use conda
-[*] Please follow the following steps:
+Please follow the following steps:
 - clone git@github.com:Eliyahou/HebrewChatBot.git
 - cd HebrewChatBot
 - conda create -n HebrewChatBot python=3.12.4 anaconda
