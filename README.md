@@ -9,8 +9,8 @@ Please follow the following steps:
 - conda activate HebrewChatBot
 - code .
 - Install dependencies with `pip install -r requirements.txt`
-## For CPU
-### if you use cpu ->pip install llama-cpp-python on the terminal you use
+## FOR CPU Installation
+- pip install llama-cpp-python on the terminal you use
 # FOR GPU Installation - > the explanation is for CUDA 12.4 
 - Paste -> conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
 - Download your cuda version - [CUDA 12.4](https://developer.download.nvidia.com/compute/cuda/12.4.0/local_installers/cuda_12.4.0_551.61_windows.exe)
