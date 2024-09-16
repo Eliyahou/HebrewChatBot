@@ -12,13 +12,18 @@ We Are Giving The Option For Three LLM's
    - for Aya   - aya-23-8B-Q5_K_M.gguf
    - for ChatGpt You can Choose what ever you like  - we work with 'gpt-4o'
 ## Installation Instruction
-- you need to create a .env file with the Following Parameters:
-| Environment Variable   | Value                                                      | Description                                                                 |
-| ---------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------_------ |
-| OPENAI_API_KEY         | open a count in OPENAI and get your key[openAI](https://platform.openai.com/docs/quickstart)| api key                                    |
-| EMBEDDING_MODEL        | [Embedding Model](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)| embedding model for the Faiss DB  |
+you need to create a .env file with the Following Parameters:
+
+| Environment Variable   | Value                                                      | Description                                                                       |
+| ---------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------- |
+| OPENAI_API_KEY         | open a count in OPENAI and get your key[openAI](https://platform.openai.com/docs/quickstart)| api key for ChatGpt|                                   |
+|                        |                                                            |                                                                             |
+| EMBEDDING_MODEL        | [Embedding Model](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)| embedding model for the Faiss DB Embedding Function  |
+|                        |                                                            |                                                                             |
 | MODEL_1                | the local path for dictalm2.0-instruct.Q4_K_M.gguf         | Dicta LLM with GGUF format of Tensor size Q4_K_M                            |
+|                        |                                                            |                                                                             |
 | MODEL_2                | the local path for aya-23-8B-Q5_K_M.gguf                   | Aya   LLM with GGUF format of Tensor size Q5_K_M                            |
+
 - To Use the system - We recommend to use conda
 #### Please follow the following steps:
 - clone git@github.com:Eliyahou/HebrewChatBot.git
@@ -32,7 +37,7 @@ We Are Giving The Option For Three LLM's
   ## FOR GPU Installation - > the explanation is for CUDA 12.4 
      - Paste -> conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
      - Download your cuda version - [CUDA 12.4](https://developer.download.nvidia.com/compute/cuda/12.4.0/local_installers/cuda_12.4.0_551.61_windows.exe)
-     - Do the Propriate Installation in Visual Studio Installar ![installator](/images/installator.png)
+     - Do the Propriate Installation in Visual Studio Installar ![installator](/images/installator.png)[download](https://visualstudio.microsoft.com/downloads/)
      - Take The Files from C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\extras\visual_studio_integration\MSBuildExtensions and 
        Paste in C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Microsoft\VC\v170\BuildCustomizations
        ### FOR Windows - In the Prompt of The Virtual Envroinment Paste:
