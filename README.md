@@ -3,7 +3,7 @@ In our Application We Are utilizing [Retrieval Augmented Generation (RAG)](https
 **either locally or deployed via cloud**.
 
 ![Screenshot](/images/hebrewChatBotExample.png)
-![Demo of Hebrew ChatBot](/images/Video Hebrew Chat Bot.mp4))
+![Demo of Hebrew ChatBot](/images/Video Hebrew Chat Bot.mp4)
 
 We Are Giving The Option For Three LLM's 
 - ChatGpt
