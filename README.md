@@ -21,7 +21,7 @@ you need to create a .env file with the Following Parameters:
 | ---------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | OPENAI_API_KEY         | open a count in OPENAI and get your key [openAI](https://platform.openai.com/docs/quickstart)| api key for ChatGpt|                                   |
 |                        |                                                            |                                                                             |
-| EMBEDDING_MODEL        | [Embedding Model](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)| embedding model for the Faiss DB Embedding Function  |
+| EMBEDDING_MODEL        | the local path for [Embedding Model](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)| embedding model for the Faiss DB Embedding Function  |
 |                        |                                                            |                                                                             |
 | MODEL_1                | the local path for dictalm2.0-instruct.Q4_K_M.gguf         | Dicta LLM with GGUF format of Tensor size Q4_K_M                            |
 |                        |                                                            |                                                                             |
