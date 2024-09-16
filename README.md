@@ -11,10 +11,10 @@ We Are Giving The Option For Three LLM's
 - Dicta [Dicta](https://huggingface.co/dicta-il/dictalm2.0-instruct-GGUF) **on premise**
 - Aya   [Aya](https://huggingface.co/bartowski/aya-23-8B-GGUF) **on premise**
 #### We Strongly recommend these versions of files:
-   - for Dicta - dictalm2.0-instruct.Q4_K_M.gguf
-   - for Aya   - aya-23-8B-Q5_K_M.gguf
-   - for ChatGpt You can Choose what ever you like  - we work with 'gpt-4o'
-## Installation Instruction
+   - for Dicta - download the dictalm2.0-instruct.Q4_K_M.gguf version
+   - for Aya   - download the aya-23-8B-Q5_K_M.gguf
+   - for ChatGpt we Implement 'gpt-4o'
+## Installation Instructions:
 you need to create a .env file with the Following Parameters:
 
 | Environment Variable   | Value                                                      | Description                                                                       |
