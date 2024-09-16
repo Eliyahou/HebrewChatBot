@@ -7,9 +7,9 @@ closest to the farthest mark with #
 ![Demo of Hebrew ChatBot](images/Video-Hebrew-Chat-Bot.gif)
 
 We Are Giving The Option For Three LLM's 
-- ChatGpt on the cloud
-- Dicta [Dicta](https://huggingface.co/dicta-il/dictalm2.0-instruct-GGUF) on Premise
-- Aya   [Aya](https://huggingface.co/bartowski/aya-23-8B-GGUF) on Premise
+- ChatGpt **on cloud**
+- Dicta [Dicta](https://huggingface.co/dicta-il/dictalm2.0-instruct-GGUF) **on premise**
+- Aya   [Aya](https://huggingface.co/bartowski/aya-23-8B-GGUF) **on premise**
 #### We Strongly recommend these versions of files:
    - for Dicta - dictalm2.0-instruct.Q4_K_M.gguf
    - for Aya   - aya-23-8B-Q5_K_M.gguf
