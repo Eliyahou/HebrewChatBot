@@ -17,7 +17,7 @@ you need to create a .env file with the Following Parameters:
 
 | Environment Variable   | Value                                                      | Description                                                                       |
 | ---------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| OPENAI_API_KEY         | open a count in OPENAI and get your key[openAI](https://platform.openai.com/docs/quickstart)| api key for ChatGpt|                                   |
+| OPENAI_API_KEY         | open a count in OPENAI and get your key [openAI](https://platform.openai.com/docs/quickstart)| api key for ChatGpt|                                   |
 |                        |                                                            |                                                                             |
 | EMBEDDING_MODEL        | [Embedding Model](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)| embedding model for the Faiss DB Embedding Function  |
 |                        |                                                            |                                                                             |
