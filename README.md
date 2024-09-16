@@ -19,9 +19,12 @@
 - Take The Files from C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\extras\visual_studio_integration\MSBuildExtensions and
 - Paste in C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Microsoft\VC\v170\BuildCustomizations
   ## For Windows
-  1. In the Prompt of The Virtual Envroinment paste-> $env:CMAKE_ARGS = "-DGGML_BLAS=ON -DGGML_BLAS_VENDOR=OpenBLAS"
-  2. paste-> $env:CUDATOOLKITDIR="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4"
-  3. pip install --force-reinstall --no-cache-dir llama-cpp-python
-  4. pip install numpy== 1.26.4
+  - In the Prompt of The Virtual Envroinment Paste
+  -- $env:CMAKE_ARGS = "-DGGML_BLAS=ON -DGGML_BLAS_VENDOR=OpenBLAS"
+  -- $env:CUDATOOLKITDIR="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4"
+  -- pip install --force-reinstall --no-cache-dir llama-cpp-python
+  -- pip install numpy== 1.26.4
+  ## To Run
+  streamlit run rag/app.py  
  
 
