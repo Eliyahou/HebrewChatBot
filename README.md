@@ -47,7 +47,7 @@ you need to create a .env file with the Following Parameters:
           - $env:CUDATOOLKITDIR="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4"
           - pip install --force-reinstall --no-cache-dir llama-cpp-python
           - pip install numpy== 1.26.4
-       #### For Linux - We Don't Think It Sude Be Very Diffrent
+       #### For Linux - We Don't Think it should Be Very Diffrent
 ## Run The Application
   streamlit run rag/app.py  
  
