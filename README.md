@@ -24,7 +24,7 @@ you need to create a .env file with the Following Parameters:
 |                        |                                                            |                                                                             |
 | MODEL_2                | the local path for aya-23-8B-Q5_K_M.gguf                   | Aya   LLM with GGUF format of Tensor size Q5_K_M                            |
 
-#### To Implement - We recommend to use conda and VScode[vsCode](https://code.visualstudio.com/download)
+#### To Implement - We recommend to use conda [conda](https://conda.io/projects/conda/en/latest/user-guide/install/windows.html) and VScode [vscode](https://code.visualstudio.com/download)
 #### Please follow the following steps:
 - clone git@github.com:Eliyahou/HebrewChatBot.git
 - cd HebrewChatBot
