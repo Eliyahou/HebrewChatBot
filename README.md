@@ -4,7 +4,7 @@ In our Application We Are utilizing [Retrieval Augmented Generation (RAG)](https
 
 ![Screenshot](/images/hebrewChatBotExample.png)
 
-![Video](/images/Screen-Recording-2024-09-16T12_22_58.559Z.mp4)
+![Video](/images/Video Hebrew Chat Bot.mp4)
 We Are Giving The Option For Three LLM's 
 - ChatGpt
 - Dicta [Dicta](https://huggingface.co/dicta-il/dictalm2.0-instruct-GGUF)
