@@ -2,7 +2,7 @@
 In our Application We Are utilizing [Retrieval Augmented Generation (RAG)](https://arxiv.org/pdf/2005.11401) for querying and interacting with your data,
 **either locally or deployed via cloud**.
 In every question we give you the option to see The context That was Build from the DB(Faiss) with The original text orgenized with the Priority From the
-closest to the farthest mark with #
+closest text to the farthest mark with #
 
 ![Demo of Hebrew ChatBot](images/Video-Hebrew-Chat-Bot.gif)
 
