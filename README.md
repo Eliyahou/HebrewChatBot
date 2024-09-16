@@ -3,6 +3,8 @@ In our Application We Are utilizing [Retrieval Augmented Generation (RAG)](https
 **either locally or deployed via cloud**.
 
 ![Screenshot](/images/hebrewChatBotExample.png)
+
+|[Video](/images/)
 We Are Giving The Option For Three LLM's 
 - ChatGpt
 - Dicta [Dicta](https://huggingface.co/dicta-il/dictalm2.0-instruct-GGUF)
