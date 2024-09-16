@@ -1,7 +1,6 @@
 # Hebrew ChatBot
-In our Application We Are utilizing [Retrieval Augmented Generation (RAG)](https://weaviate.io/rag#:~:text=RAG%20with%20Weaviate,accuracy%20of%20AI%2Dgenerated%20content.) for querying and interacting with your data,
+In our Application We Are utilizing [Retrieval Augmented Generation (RAG)](https://arxiv.org/pdf/2005.11401) for querying and interacting with your data,
 **either locally or deployed via cloud**.
-you need to create a .env file with the Following Parameters:
 
 ![Screenshot](/images/hebrewChatBotExample.png)
 We Are Giving The Option For Three LLM's 
@@ -13,6 +12,13 @@ We Are Giving The Option For Three LLM's
    - for Aya   - aya-23-8B-Q5_K_M.gguf
    - for ChatGpt You can Choose what ever you like  - we work with 'gpt-4o'
 ## Installation Instruction
+- you need to create a .env file with the Following Parameters:
+| Environment Variable   | Value                                                      | Description                                                                 |
+| ---------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------_------ |
+| OPENAI_API_KEY         | open a count in OPENAI and get your key[openAI](https://platform.openai.com/docs/quickstart)| api key                                    |
+| EMBEDDING_MODEL        | [Embedding Model](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2)| embedding model for the Faiss DB  |
+| MODEL_1                | the local path for dictalm2.0-instruct.Q4_K_M.gguf         | Dicta LLM with GGUF format of Tensor size Q4_K_M                            |
+| MODEL_2                | the local path for aya-23-8B-Q5_K_M.gguf                   | Aya   LLM with GGUF format of Tensor size Q5_K_M                            |
 - To Use the system - We recommend to use conda
 #### Please follow the following steps:
 - clone git@github.com:Eliyahou/HebrewChatBot.git
