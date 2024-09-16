@@ -47,7 +47,7 @@ you need to create a .env file with the Following Parameters:
           - pip install --force-reinstall --no-cache-dir llama-cpp-python
           - pip install numpy== 1.26.4
        ### For Linux - We Don't Think It Sude Be Very Diffrent
-## TO Run The Application
+## Run The Application
   streamlit run rag/app.py  
  
 
