@@ -3,11 +3,19 @@ In our Application We Are utilizing [Retrieval Augmented Generation (RAG)](https
 **either locally or deployed via cloud**.
 In every question we give you the option to see The context That was Build from the DB(Faiss) with The original text orgenized with the Priority From the
 closest text to the farthest, mark with #\
-We also Added the Distance Strategy option of the DB we use (cosine is the default)
+We also Added the Distance Strategy option of the DB we use (cosine is the default)\
+The Gui is written with Streamlit 
+<img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit logo" style="height:10px;width:20px; margin-top:50px"></img>
+<br>
 
 ![Demo of Hebrew ChatBot](images/Video-Hebrew-Chat-Bot.gif)
+## What is Streamlit?
 
-We Are Giving The Option For Three LLM's 
+Streamlit lets you transform Python scripts into interactive web apps in minutes, instead of weeks. Build dashboards, generate reports, or create chat apps. Once you’ve created an app, you can use our [Community Cloud platform](https://streamlit.io/cloud) to deploy, manage, and share your app.
+
+
+
+## We Are Giving The Option For Three LLM's 
 - ChatGpt **on cloud**
 - Dicta [Dicta](https://huggingface.co/dicta-il/dictalm2.0-instruct-GGUF) **on premise**
 - Aya   [Aya](https://huggingface.co/bartowski/aya-23-8B-GGUF) **on premise**
