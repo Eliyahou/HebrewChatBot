@@ -110,9 +110,9 @@ with st.sidebar:
     match genre:
         case ":cyclone:[ChatGpt]":
             encoder.radio_b=0
-        case  "***Dicta-quantization F16***":  
+        case  "***Dicta-quantization Q4_K_M***":  
             encoder.radio_b=2
-        case "***Premise Aya Model***":  
+        case "***Premise Aya Model Q5_K_M***":  
              encoder.radio_b=3  
    
     max_new_tokens = st.number_input("max_new_tokens", 128, 4096,512) 
