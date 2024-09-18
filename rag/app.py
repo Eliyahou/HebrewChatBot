@@ -34,7 +34,7 @@ def handler():
 radio_b=1
 
 
-st.title("Hebrew ChatBot")
+st.title("Hebrew ChatBot On Premise")
 
 
 
