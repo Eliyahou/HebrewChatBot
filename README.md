@@ -44,6 +44,7 @@ you need to create a .env file with the Following Parameters:
 - conda activate HebrewChatBot
 - code .
 - Install dependencies with `pip install -r requirements.txt`
+- create folder name files and put there all your files you want to investigate
 
 #### Do the Propriate Installation in Visual Studio Installar 
 <br>
